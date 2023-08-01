@@ -1,0 +1,100 @@
+.card {
+  width: 450px;
+  /* height: 500px; */
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 40px;
+}
+
+.form-title {
+  font-size: 2rem;
+  margin: 5px auto;
+  text-align: center;
+  color: #1976d2;
+  background-color: #f5f5f5;
+}
+.form-text {
+  background-color: #f5f5f5;
+  color: gray;
+  text-align: center;
+  font-weight: 100;
+  margin: auto;
+  margin-top: 15px;
+}
+
+form {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.form-group {
+  background-color: #f5f5f5;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+.form-group i {
+  background-color: #f5f5f5;
+  margin: 18px 10px;
+  color: rgb(66, 66, 66);
+}
+
+input,
+select {
+  background-color: #f5f5f5;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  border-bottom: 2px solid gray;
+}
+input:focus,
+select:focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(75, 75, 75);
+}
+
+.form-button {
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 60%;
+  margin: 20px auto;
+  margin-bottom: 10px;
+}
+.form-button i {
+  background: transparent;
+  margin: auto 5px;
+}
+.form-button:hover {
+  background-color: #3884cf;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.form-link {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.form-link a {
+  background-color: #f5f5f5;
+  /* text-decoration: none; */
+  color: gray;
+}
+.form-link a:hover {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 90%;
+    padding: 10px;
+  }
+}
